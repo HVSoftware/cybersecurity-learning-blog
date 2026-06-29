@@ -1,0 +1,55 @@
+baseURL = 'https://security.hvsoftware.nl/'
+locale = 'nl-nl'
+title = 'CyberSecurity Learning Blog'
+theme = 'PaperMod'
+defaultContentLanguage = 'nl'
+enableEmoji = true
+
+[params]
+  description = 'Mijn reis door Azure certificeringen en CyberSecurity'
+  author = 'Harry van der Valk'
+  DateFormat = '2006-01-02'
+
+  [params.homeInfoParams]
+    Title = 'CyberSecurity Learning Blog'
+    Content = 'Mijn reis door Azure certificeringen (AZ-900, AZ-104, SC-900) en andere CyberSecurity onderwerpen. Studiemateriaal, examentips, praktijkprojecten en inzichten.'
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/harryvandervalk'
+  [[params.socialIcons]]
+    name = 'linkedin'
+    url = 'https://www.linkedin.com/in/harryvandervalk/'
+
+  [params.cover]
+    linkFullImages = true
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[menu]
+  [[menu.main]]
+    identifier = 'categories'
+    name = 'Categorieën'
+    url = '/categories/'
+    weight = 10
+
+  [[menu.main]]
+    identifier = 'tags'
+    name = 'Tags'
+    url = '/tags/'
+    weight = 20
+
+  [[menu.main]]
+    identifier = 'archives'
+    name = 'Archief'
+    url = '/archives/'
+    weight = 30
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
