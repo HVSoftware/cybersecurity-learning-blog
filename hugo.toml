@@ -16,10 +16,10 @@ enableEmoji = true
 
   [[params.socialIcons]]
     name = 'github'
-    url = 'https://github.com/harryvandervalk'
+    url = 'https://github.com/HVSoftware'
   [[params.socialIcons]]
     name = 'linkedin'
-    url = 'https://www.linkedin.com/in/harryvandervalk/'
+    url = 'https://www.linkedin.com/in/hvsoftware/'
 
   [params.cover]
     linkFullImages = true
